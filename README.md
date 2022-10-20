@@ -1,31 +1,6 @@
 # Vuejs & TailwindCSS Portfolio - With Dark Mode
 
 A simple portfolio starter theme built with Vue.js v3 and Tailwind CSS v3.
-
-![Vuejs-TailwindCSS-Portfolio](https://user-images.githubusercontent.com/16396664/140909796-815239e4-a986-46ad-bbd0-4b166127bbb8.JPG)
-
-## Demo URL
-
-[https://vuejs-tailwindcss-portfolio.netlify.com](https://vuejs-tailwindcss-portfolio.netlify.com)
-
-## Features
-
--   Simple and responsive design
--   [Vue.js v3](https://vuejs.org) with [Vue Router](https://router.vuejs.org)
--   [Tailwind CSS v3](https://tailwindcss.com)
--   Theme Switcher with Dark Mode
--   Composition API
--   Vue transitions
--   Reusable Components
--   Auto Counter
--   Projects filter by category
--   Projects filter by search
--   Projects carousel
--   Vue.js smooth scroll
--   Dynamic forms
--   Scroll to top button
--   Download file button
-
 ## Installation
 
 1. ##### Make sure you have Node JS installed. If you don't have it:
