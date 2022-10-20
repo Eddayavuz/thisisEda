@@ -6,6 +6,7 @@ export default {
 	data: () => {
 		return {
 			theme: '',
+			imgPadding: 50,
 		};
 	},
 	created() {
@@ -20,6 +21,9 @@ export default {
 	},
 	methods: {},
 };
+
+
+
 </script>
 
 <template>
@@ -34,24 +38,17 @@ export default {
 				Hi, this is Eda 🌱
 			</h1>
 			<p
-				class="font-general-medium mt-2 text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400"
+				class="font-general-regular mt-2 text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400"
 			>
 			Proud gradute of <a href="https://www.vuevixens.org/">Frontend Foxes School 🦊</a>	
 			</p>
 		</div>
 
 		<!-- Banner right illustration -->
-		<div class="w-full md:w-2/3 text-right float-right">
-			<img
-				v-if="theme === 'light'"
-				src="@/assets/images/hi.png"
-				alt="Developer"
+		<div class="w-full md:w-2/3">
+			<img src="@/assets/images/hi.png" :style="{ padding: imgPadding + 'px'}"
 			/>
-			<img
-				v-else
-				src="@/assets/images/hi.png"
-				alt="Developer"
-			/>
+
 		</div>
 	</section>
 </template>
