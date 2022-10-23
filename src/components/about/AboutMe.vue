@@ -26,7 +26,7 @@ export default {
 			<img
 				src="@/assets/images/eda.jpeg"
 				class="rounded-xl w-96"
-				alt=""
+				alt="A Photography of Eda Yavuz."
 			/>
 		</div>
 

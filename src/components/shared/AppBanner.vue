@@ -46,7 +46,7 @@ export default {
 
 		<!-- Banner right illustration -->
 		<div class="w-full md:w-2/3">
-			<img src="@/assets/images/hi.png" :style="{ padding: imgPadding + 'px'}"
+			<img src="@/assets/images/hi.png" alt="A bitmoji of Eda." :style="{ padding: imgPadding + 'px'}"
 			/>
 
 		</div>
