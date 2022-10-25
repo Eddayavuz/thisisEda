@@ -5,8 +5,8 @@ export default {
 </script>
 
 <template>
-	<router-link
-		to="/"
+	<a
+		:href= project.url
 		class="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark"
 		aria-label="Single Project"
 	>
@@ -26,9 +26,18 @@ export default {
 			<span
 				class="font-general-medium text-lg text-ternary-dark dark:text-ternary-light"
 				>{{ project.category }}</span
-			>
+			><div class="text-center px-4 py-6 display: block">
+				<a 
+					class="border rounded hover:shadow-xl cursor-pointer mb-10 sm:mb-0 mr-2 p-1 dark:text-ternary-light"
+					:href= project.url
+					target="_blank">Live
+				</a><a
+					class="border rounded hover:shadow-xl cursor-pointer mb-10 sm:mb-0 p-1 dark:text-ternary-light" 
+					:href= project.sourceUrl
+					target="_blank">Source Code
+				</a></div>
 		</div>
-	</router-link>
+	</a>
 </template>
 
 <style lang="scss" scoped></style>

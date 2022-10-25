@@ -40,8 +40,11 @@ export default {
 			<p
 				class="font-general-regular mt-2 text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400"
 			>
-			Proud gradute of <a href="https://www.vuevixens.org/">Frontend Foxes School 🦊</a>	
-			</p>
+			Proud gradute of <a href="https://www.vuevixens.org/" style="color:coral">Frontend Foxes School 🦊</a> </p>
+			<p
+			class="text-center sm:text-left leading-none text-gray-400"			
+			>Click <a href="https://credential.certifyme.online/verify/155511fb3744" target="_blank">🎓 </a>to see my certificate!</p>
+			
 		</div>
 
 		<!-- Banner right illustration -->
