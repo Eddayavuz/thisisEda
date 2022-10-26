@@ -29,7 +29,7 @@ const projects = [
 	{
 		id: 4,
 		title: 'Memory Blaster',
-		category: 'Web Application, Vue.Js',
+		category: 'Web Application, Vue.js',
 		img: require('@/assets/images/memory-blaster.jpg'),
 		url: "https://eddayavuz.github.io/memory-blaster/",
 		sourceUrl: "https://github.com/Eddayavuz/memory-blaster"
@@ -37,9 +37,18 @@ const projects = [
 	{
 		id: 4,
 		title: 'Leasy - Listing App',
-		category: 'Mobile Application',
+		category: 'Mobile Application, iOS',
 		img: require('@/assets/images/leasy.jpg'),
 		sourceUrl: "https://github.com/Eddayavuz/leasy"
+		
+	},
+	{
+		id: 5,
+		title: 'Pupstagram',
+		category: 'Web Application, Vue.js',
+		img: require('@/assets/images/pupstagram.png'),
+		url: "https://vuepupstagram.netlify.app",
+		sourceUrl: "https://github.com/Eddayavuz/pupstagram"
 		
 	},
 ];
