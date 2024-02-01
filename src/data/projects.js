@@ -4,14 +4,6 @@
 const projects = [
 	{
 		id: 1,
-		title: 'WooCommerce Website',
-		category: 'Wordpress',
-		img: require('@/assets/images/dscott-woocommerce.jpg'),
-		url: "https://dscottphotography.com/",
-		sourceUrl: ""
-	},
-	{
-		id: 2,
 		title: 'Terrarium',
 		category: 'Web Application',
 		img: require('@/assets/images/terrarium.jpg'),
@@ -19,7 +11,7 @@ const projects = [
 		sourceUrl: "https://github.com/Eddayavuz/myTerrarium"
 	},
 	{
-		id: 3,
+		id: 2,
 		title: 'Typing Game',
 		category: 'Web Application',
 		img: require('@/assets/images/typing-game.jpg'),
@@ -27,7 +19,7 @@ const projects = [
 		sourceUrl: "https://github.com/Eddayavuz/typing-game"
 	},
 	{
-		id: 4,
+		id: 3,
 		title: 'Memory Blaster',
 		category: 'Web Application, Vue.js',
 		img: require('@/assets/images/memory-blaster.jpg'),
